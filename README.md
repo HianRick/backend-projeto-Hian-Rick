@@ -190,13 +190,6 @@ public class Jogos {
 
 ---
 
-## 🧪 Testes e Ferramentas Recomendadas
-
-- **Postman** ou **Insomnia** para testar as rotas REST.
-- **Swagger/OpenAPI** (pode ser integrado com `springdoc-openapi` para documentação automática).
-
----
-
 ## 📄 Licença
 
 Este projeto é de uso **acadêmico**, sem fins lucrativos ou comerciais.
