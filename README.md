@@ -43,24 +43,6 @@ Welcome to the FreeToGame API – a free and open REST API providing access to a
 
 ---
 
-## 🚀 Como Executar o Projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/SindromedoPcGamer.api.git
-   cd SindromedoPcGamer.api
-   ```
-
-2. Execute com Maven:
-   ```bash
-   ./mvnw spring-boot:run
-   ```
-
-3. Acesse: `http://localhost:8080`
-
----
-
-## 🧩 Modelo da Aplicação
 
 ### 🎮 Entidade `Jogos`
 
