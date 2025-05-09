@@ -131,10 +131,6 @@ public class Jogos {
 }
 ```
 
-**Resposta:** Código 201 Created com o jogo salvo.
-
----
-
 ### 💡 5. Recomendação por palavras-chave  
 **POST** `/jogos/recomendar`
 
