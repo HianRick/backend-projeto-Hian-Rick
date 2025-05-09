@@ -1,0 +1,157 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1746829591443
+  modified: 1746829591443
+collection:
+  - url: localhost:8000/jogos
+    name: Mostra todos os jogos
+    meta:
+      id: req_c0ba07a59ac94b02ac7312ed424dd471
+      created: 1746829619491
+      modified: 1746829683018
+      isPrivate: false
+      sortKey: -1746829619491
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:8000/jogos/developer/Gaijin Entertainment
+    name: Mostra Jogos com base no developers informados
+    meta:
+      id: req_8d1c7e5cbe594001b02090abfc631d0d
+      created: 1746829692501
+      modified: 1746829756224
+      isPrivate: false
+      sortKey: -1746829619391
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:8000/jogos/ano/2009
+    name: Mostra jogos com base na data de lamçamento
+    meta:
+      id: req_c0c529a9eede46aeba2fbe82c0d1a504
+      created: 1746829761924
+      modified: 1746829825029
+      isPrivate: false
+      sortKey: -1746829619291
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:8000/jogos
+    name: Adiciona Jogos
+    meta:
+      id: req_9f20853f17d741e9ac3c45f27c984c0c
+      created: 1746829847273
+      modified: 1746829906712
+      isPrivate: false
+      sortKey: -1746829619191
+    method: POST
+    body:
+      mimeType: application/json
+      text: >-
+        {
+          "id": 1000,
+          "title": "The Saboteur",
+          "short_description": "The Saboteur is an action-adventure game set in an open world environment and played from a third-person perspective.",
+          "developer": "Pandemic Studios",
+          "release_date": "2009-12-09"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:8000/jogos/recomendar
+    name: Mostra jogos com base na descrição via json
+    meta:
+      id: req_30f5fae1b860478c8ef149ef11f53904
+      created: 1746829928546
+      modified: 1746829992907
+      isPrivate: false
+      sortKey: -1746829619091
+    method: POST
+    body:
+      mimeType: application/json
+      text: '["open-world"]'
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:8000/sobre
+    name: Sobre
+    meta:
+      id: req_7ed81b321db044e89098824b4db0d1f9
+      created: 1746830007187
+      modified: 1746830022626
+      isPrivate: false
+      sortKey: -1746830007187
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1746829596949
+    modified: 1746829596949
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1746829596876
+    modified: 1746829596876
+    isPrivate: false
